@@ -60,8 +60,8 @@ function escolha(op, e){
         <option value="divisao">Divisão</option>
       </select>
     </div>
-    <div class="d-flex justify-content-center mt-4">>
-      <h2 :resultado="contar.resultado">Resultado:</h2>
+    <div class="d-flex justify-content-center mt-4">
+      <h2>Resultado: {{ contar.resultado }}</h2>
     </div>
   </div>
 </template>
